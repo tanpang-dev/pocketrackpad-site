@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Macヘルパーツール / Mac Helper Tool - PockeTrackPad</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header class="site">
+    <h1>Macヘルパーツール</h1>
+    <p class="tagline">Macの一覧にPockeTrackPadが表示されないときに使う、一度だけ実行する小さなツールです。<br>
+    A small one-time tool for when PockeTrackPad doesn't appear in your Mac's Bluetooth list.</p>
+    <nav class="site">
+      <a href="index.html">ホーム / Home</a>
+      <a href="privacy.html">プライバシーポリシー / Privacy Policy</a>
+      <a href="terms.html">利用規約 / Terms of Use</a>
+    </nav>
+  </header>
+
+  <section class="card">
+    <h2>このツールについて</h2>
+    <p>macOSの「システム設定 &gt; Bluetooth」は、PockeTrackPadのようなBLE(Bluetooth Low Energy)機器を一覧に表示できない場合があります。このヘルパーツールを一度だけ実行すると、MacがPockeTrackPadをBluetooth入力機器として認識できるようになります。インストールは不要で、常駐もしません。</p>
+    <hr class="lang">
+    <h2>About This Tool</h2>
+    <p>macOS's System Settings &gt; Bluetooth sometimes cannot list BLE (Bluetooth Low Energy) devices like PockeTrackPad. Running this helper tool once lets your Mac recognize PockeTrackPad as a Bluetooth input device. No installation is required, and it does not run in the background afterward.</p>
+  </section>
+
+  <section class="card">
+    <h2>ダウンロード / Download</h2>
+    <p><a href="downloads/PockeTrackPadConnect.zip">PockeTrackPadConnect.zip をダウンロード / Download PockeTrackPadConnect.zip</a></p>
+  </section>
+
+  <section class="card">
+    <h2>使い方</h2>
+    <ol>
+      <li>ダウンロードしたzipファイルを解凍します。</li>
+      <li>「PockeTrackPadConnect.command」を右クリック(またはControlキーを押しながらクリック)し、「開く」を選択します。</li>
+      <li>「開発元が未確認のため開けません」といった警告ダイアログが表示されたら、もう一度「開く」を選択します。</li>
+      <li>ターミナルが起動し、PockeTrackPadとの接続を待ち受けます。iPhone側でPockeTrackPadアプリを開いていれば、しばらくしてMacがBluetooth機器として認識します。</li>
+    </ol>
+    <hr class="lang">
+    <h2>How to Use</h2>
+    <ol>
+      <li>Unzip the downloaded file.</li>
+      <li>Right-click (or Control-click) "PockeTrackPadConnect.command" and choose Open.</li>
+      <li>If a warning dialog appears saying it can't be verified, choose Open again.</li>
+      <li>A Terminal window opens and waits for a connection. With the PockeTrackPad app open on your iPhone, your Mac will recognize it as a Bluetooth device shortly after.</li>
+    </ol>
+  </section>
+
+  <section class="card">
+    <h2>マウスが使えないとき</h2>
+    <p>マウスやトラックパッドが使えない場合は、キーボードだけで実行できます。</p>
+    <ol>
+      <li>Finderで矢印キーを使って「PockeTrackPadConnect.command」を選び、<kbd>Command</kbd>+<kbd>O</kbd>で開こうとします。</li>
+      <li>「開けません」という警告が出たら、<kbd>Command</kbd>+<kbd>Space</kbd>でSpotlight検索を開き、「プライバシーとセキュリティ」と入力して<kbd>Return</kbd>キーを押します。</li>
+      <li>画面の下の方にある「このまま開く」ボタンを<kbd>Tab</kbd>キーで選択し、<kbd>Return</kbd>キーで実行します。</li>
+      <li>もう一度ファイルを開こうとすると起動します。</li>
+    </ol>
+    <hr class="lang">
+    <h2>If You Can't Use a Mouse</h2>
+    <p>If you can't use a mouse or trackpad, you can do this with the keyboard alone.</p>
+    <ol>
+      <li>In Finder, use the arrow keys to select "PockeTrackPadConnect.command", then press <kbd>Command</kbd>-<kbd>O</kbd> to open it.</li>
+      <li>If a warning says it can't be opened, press <kbd>Command</kbd>-<kbd>Space</kbd> to open Spotlight, type "Privacy &amp; Security", and press <kbd>Return</kbd>.</li>
+      <li>Use <kbd>Tab</kbd> to select the "Open Anyway" button near the bottom of the screen, then press <kbd>Return</kbd> to run it.</li>
+      <li>Try opening the file again and it will launch.</li>
+    </ol>
+  </section>
+
+  <footer><p>© 2026 tanpang-dev</p></footer>
+</main>
+</body>
+</html>
